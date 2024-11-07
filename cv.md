@@ -18,14 +18,12 @@ These days, I'm all about TypeScript and React, building modern web applications
 I thrive on continuous learning - from exploring new programming concepts to engaging in weekly English book discussions. While I'm particularly drawn to frontend development, I'm comfortable working with backend technologies too. What really drives me is the process of turning ideas into working solutions.
 
 ## Technical Skills
-- **Languages:** JavaScript, TypeScript, C/C++, Python
-- **Frontend:** React.js, HTML5, CSS3
-- **Backend:** Node.js
-- **Testing:** Jest
-- **Build Tools:** Webpack, Vite
-- **Other Tools:** Git, Docker, Linux
+- **Frontend:** React.js, JavaScript, TypeScript, HTML5, CSS3
+- **Backend:** Node.js, Python, C/C++
 - **Databases:** SQL
-- **Design Tools:** Adobe Photoshop, Figma, Tableau, D3.js
+- **Development:** Git, Docker, Linux, Webpack, Vite
+- **Testing:** Jest, Unit Testing
+- **Design:** Figma, D3.js, Data Visualization
 
 ## Code Examples
 
