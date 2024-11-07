@@ -3,67 +3,168 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Olesia Kniazeva - Web Developer specializing in React, JavaScript, and TypeScript">
+    <meta name="keywords" content="Web Developer, React, JavaScript, TypeScript, Frontend Developer">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" as="style">
     <title>Olesia Kniazeva CV</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <header>
-        <h1>Olesia Kniazeva</h1>
-        <nav>
-            <ul>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#summary">Summary</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#code">Code</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#languages">Languages</a></li>
-                <li><a href="#certifications">Certifications</a></li>
-            </ul>
-        </nav>
+        <div class="header-content">
+            <img src="cv-photo.jpeg" alt="Olesia Kniazeva" class="profile-photo">
+            <div class="header-text">
+                <h1>Olesia Kniazeva</h1>
+                <p>Web Developer | React | JavaScript | TypeScript | Python</p>
+            </div>
+        </div>
     </header>
 
     <main>
         <section id="contact">
-            <!-- Contact information will be added here -->
+            <h2>Contact Information</h2>
+            <ul>
+                <li><i class="fas fa-location-dot" aria-hidden="true"></i> <strong>Location:</strong> Daqing, China</li>
+                <li><i class="fas fa-phone" aria-hidden="true"></i> <strong>Phone:</strong> +7 963-157-52-69</li>
+                <li><i class="fas fa-envelope" aria-hidden="true"></i> <strong>Email:</strong> <a href="mailto:knyazevaolesiya@gmail.com">knyazevaolesiya@gmail.com</a></li>
+                <li><i class="fab fa-github" aria-hidden="true"></i> <strong>Github:</strong> <a href="https://github.com/OlesiaKniazeva">OlesiaKniazeva</a></li>
+                <li><i class="fab fa-linkedin" aria-hidden="true"></i> <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/olesia-kniazeva/">olesia-kniazeva</a></li>
+            </ul>
         </section>
 
         <section id="summary">
-            <!-- Summary will be added here -->
+            <h2>Summary</h2>
+            <p>Hi! I'm Olesia, and I love building things for the web. My programming journey started at École 42, where I fell in love with coding while learning C. What began as figuring out how to make computers follow my commands has grown into a passion for creating websites and applications.</p>
+            <p>What makes my approach unique is how my programming skills are complemented by my design background. After getting comfortable with coding, I spent 4 months diving into design at Gorbunov Bureau. This experience taught me valuable principles about user experience and visual communication that I apply to my development work.</p>
+            <p>These days, I'm all about TypeScript and React, building modern web applications that combine clean code with thoughtful design. I'm excited about creating intuitive interfaces and learning best practices in frontend development.</p>
+            <p>I thrive on continuous learning - from exploring new programming concepts to engaging in weekly English book discussions. While I'm particularly drawn to frontend development, I'm comfortable working with backend technologies too. What really drives me is the process of turning ideas into working solutions.</p>
         </section>
 
         <section id="skills">
-            <!-- Skills will be added here -->
-        </section>
-
-        <section id="code">
-            <!-- Code examples will be added here -->
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>
+                    <i class="fas fa-laptop-code"></i>
+                    <strong>Frontend:</strong> React.js, JavaScript, TypeScript, HTML5, CSS3
+                </li>
+                <li>
+                    <i class="fas fa-server"></i>
+                    <strong>Backend:</strong> Node.js, Python, C/C++
+                </li>
+                <li>
+                    <i class="fas fa-database"></i>
+                    <strong>Databases:</strong> SQL
+                </li>
+                <li>
+                    <i class="fas fa-tools"></i>
+                    <strong>Development:</strong> Git, Docker, Linux, Webpack, Vite
+                </li>
+                <li>
+                    <i class="fas fa-vial"></i>
+                    <strong>Testing:</strong> Jest, Unit Testing
+                </li>
+                <li>
+                    <i class="fas fa-palette"></i>
+                    <strong>Design:</strong> Figma, D3.js, Data Visualization
+                </li>
+            </ul>
         </section>
 
         <section id="projects">
-            <!-- Projects will be added here -->
+            <h2>Projects</h2>
+            <h3>Nature Gifts – Restaurant Website</h3>
+            <p>Tech Stack: JavaScript, HTML & CSS, Webpack</p>
+            <ul>
+                <li>Implemented responsive user interface with adaptive navigation</li>
+                <li>Developed modular architecture with dynamic content management</li>
+                <li>Successfully deployed on GitHub Pages</li>
+                <li>Gained practical experience with DOM manipulation and Webpack bundling</li>
+            </ul>
+            <p><a href="https://olesiakniazeva.github.io/restaurant-site/">Live Demo</a></p>
+
+            <h3>Tic-Tac-Toe Game</h3>
+            <p>Tech Stack: JavaScript, HTML & CSS, Jest</p>
+            <ul>
+                <li>Implemented using Factory Pattern and IIFE for optimal code structure</li>
+                <li>Added player customization and victory animations</li>
+                <li>Developed comprehensive test suite using Jest</li>
+                <li>Enhanced JavaScript development and testing skills</li>
+            </ul>
+            <p><a href="https://olesiakniazeva.github.io/Tic-Tac-Toe/">Live Demo</a></p>
+
+            <h3>Shell Command Line Interpreter</h3>
+            <p>Tech Stack: C, Make</p>
+            <ul>
+                <li>Developed robust command-line parser handling complex syntax</li>
+                <li>Implemented core shell commands (echo, pwd, export, unset, env, exit)</li>
+                <li>Added complete signal handling functionality</li>
+                <li>Integrated support for pipes, redirects, and environment variables</li>
+            </ul>
+            <p><a href="https://github.com/OlesiaKniazeva/Minishell_21">GitHub Repository</a></p>
         </section>
 
         <section id="experience">
-            <!-- Experience will be added here -->
+            <h2>Professional Experience</h2>
+            <h3>Internet Ads Assessor | Lionbridge</h3>
+            <p>2017 - 2020</p>
+            <ul>
+                <li>Evaluated Google search results for relevance and accuracy</li>
+                <li>Contributed to search engine algorithm improvements</li>
+                <li>Enhanced user experience through detailed result analysis</li>
+            </ul>
         </section>
 
         <section id="education">
-            <!-- Education will be added here -->
+            <h2>Education</h2>
+            <h3>Ecole 42</h3>
+            <p>2021 - 2023</p>
+            <p>International coding school</p>
+            <ul>
+                <li>Completed extensive programming curriculum</li>
+                <li>Focused on practical project-based learning</li>
+                <li>Developed strong problem-solving skills</li>
+            </ul>
+            <h3>Perm State University</h3>
+            <p>2013 - 2017</p>
+            <p>Bachelor of Science in Biology</p>
         </section>
 
         <section id="languages">
-            <!-- Languages will be added here -->
+            <h2>Languages</h2>
+            <ul>
+                <li>
+                    <strong>English:</strong> 
+                    <div class="language-details">
+                        <p>B2 Upper-Intermediate</p>
+                        <p class="language-note">EF SET Certificate 82/100 (C2 Proficient)</p>
+                    </div>
+                </li>
+                <li>
+                    <strong>Chinese:</strong>
+                    <div class="language-details">
+                        <p>HSK2 level</p>
+                    </div>
+                </li>
+            </ul>
         </section>
 
         <section id="certifications">
-            <!-- Certifications will be added here -->
+            <h2>Certifications</h2>
+            <ul>
+                <li>Yandex Algorithms Training 5.0 - Yandex (Apr 2024)</li>
+                <li>Python Core - EPAM Systems (Feb 2023)</li>
+                <li>Docker Basics - Karpov.courses (Nov 2022)</li>
+                <li>Interactive SQL Course - Stepik (Aug 2022)</li>
+                <li>Modern C++ Development: Yellow Belt - Coursera (Mar 2022)</li>
+                <li>Modern C++ Development: White Belt - Coursera (Jan 2022)</li>
+                <li>Gorbunov Bureau Design Course (4 months) - Data Visualization and Design Principles</li>
+            </ul>
         </section>
     </main>
 
     <footer>
-        <p>© 2024 Olesia Kniazeva</p>
+        <p><i class="fab fa-github"></i><a href="https://github.com/OlesiaKniazeva">@OlesiaKniazeva</a></p>
     </footer>
 </body>
 </html> 
