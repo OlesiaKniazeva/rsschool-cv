@@ -1,0 +1,329 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main content container */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background-color: #fff;
+    border-bottom: none;
+    padding: 30px 0 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.profile-photo {
+    width: 180px;
+    height: 220px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 30px;
+    object-position: center 20%;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.header-text {
+    text-align: left;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #666;
+}
+
+/* Section styles */
+section {
+    margin: 10px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+pre {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+/* Footer styles */
+footer {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background-color: #fff;
+    border-top: none;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.05);
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #666;
+    text-decoration: underline;
+}
+
+/* Project links styling */
+#projects a {
+    color: #2c3e50;
+    text-decoration: underline;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+#projects a:hover {
+    color: #3498db;
+    background-color: transparent;
+}
+
+/* Add spacing between projects */
+section#projects h3:not(:first-child) {
+    margin-top: 25px;
+}
+
+/* Links styling */
+a {
+    color: #2c3e50;
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #3498db;
+}
+
+/* Skills section styling */
+#skills ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-left: 0;
+    list-style: none;
+}
+
+#skills li {
+    padding: 5px 0;
+    display: flex;
+    align-items: flex-start;
+}
+
+#skills i {
+    width: 20px;
+    margin-right: 10px;
+    color: #2c3e50;
+    margin-top: 3px;
+}
+
+#skills strong {
+    min-width: 120px;
+    margin-right: 10px;
+}
+
+/* Contact section styling */
+#contact ul {
+    list-style: none;
+    margin-left: 0;
+}
+
+#contact li {
+    padding: 5px 0;
+}
+
+/* Project section improvements */
+#projects p {
+    color: #666;
+    margin: 5px 0;
+}
+
+/* Education section styling */
+#education h3 {
+    color: #2c3e50;
+    margin-top: 15px;
+}
+
+#education p {
+    color: #666;
+    font-style: italic;
+}
+
+/* Languages section styling */
+#languages ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none;
+    margin-left: 0;
+}
+
+#languages li {
+    display: flex;
+    align-items: flex-start;
+}
+
+#languages strong {
+    min-width: 100px;
+    margin-right: 15px;
+}
+
+.language-details {
+    flex: 1;
+}
+
+.language-note {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 3px;
+}
+
+/* Certifications styling */
+#certifications li {
+    margin-bottom: 10px;
+}
+
+/* Add subtle hover effect to sections */
+section:hover {
+    transform: none;
+}
+
+/* Contact section icons */
+#contact i {
+    width: 20px;
+    margin-right: 10px;
+    color: #2c3e50;
+}
+
+/* Footer icon */
+footer i {
+    margin-right: 5px;
+}
+
+/* Update summary paragraphs spacing */
+#summary p {
+    margin-bottom: 15px;
+}
+
+/* Media Queries */
+@media print {
+    body { background: white; }
+    section { box-shadow: none; break-inside: avoid; }
+    .profile-photo { print-color-adjust: exact; }
+    a { text-decoration: none; }
+    footer { display: none; }
+}
+
+@media (max-width: 600px) {
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+        padding: 0 10px;
+    }
+    
+    .profile-photo {
+        margin-right: 0;
+        margin-bottom: 20px;
+        width: 150px;
+        height: 180px;
+    }
+    
+    .header-text {
+        text-align: center;
+    }
+    
+    main {
+        padding: 10px;
+    }
+    
+    #skills strong {
+        min-width: 100px;
+    }
+    
+    h1 {
+        font-size: 1.8em;
+    }
+    
+    section {
+        padding: 15px;
+    }
+}
